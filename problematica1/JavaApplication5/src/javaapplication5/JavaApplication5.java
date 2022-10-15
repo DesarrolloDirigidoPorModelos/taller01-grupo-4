@@ -22,7 +22,7 @@ public class JavaApplication5 {
         Empleado empleado = new Empleado("0609955222", "Emilio", "Vera", "Jefe de TIC's", null);
         Tematica tematica = new Tematica("001", "Servicios Bancarios", "ACTIVO", null);
 
-        Turno turno = new Turno("A001", new Date(2022 - 10 - 15), "PENDIENTE", empleado, cliente, tematica);
+        Turno turno = new Turno("A001", new Date(15,10,2022), "PENDIENTE", empleado, cliente, tematica);
 
         System.out.println("*****************************************");
         System.out.println("     PRACTICA EN CLASE  - TURNO          ");
